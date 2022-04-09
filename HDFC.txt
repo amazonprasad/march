@@ -1,0 +1,36 @@
+
+DCC104836825
+hdfc application number
+https://apply.hdfcbank.com/vivid/trackapplication 
+
+
+KARTHIKEYA :
+ https://kartikeyasoft.com/courses/video-classes/DevOps+%2B+Cloud/19
+
+
+Git Token :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
+
+GOPI :- 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
+
+ERRORS:
+1. 
+remote: Permission to Gopiachari/Devops-.git denied to amazonprasad. 
+fatal: unable to access 'https://github.com/Gopiachari/Devops-.git/': The requested URL returned error: 403
+
+Soultion:
+1. Running the following two commands in the terminal, replacing the obvious things:
+   git config --global user.name "Your Name Here" git config --global user.email "Your Email Address Here"
+
+2. This one "How can I change the user on Git Bash?"
+
+3. Deleting the Windows Credential
+
+4. Adding a ssh keys to Github
+
+Error 2:remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+        remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+        fatal: Authentication failed for 'https://github.com/Gopiachari/Devops-.git/' 
+
+        1.git remote remove origin
+Answer: 2.git remote add origin https://<PERSONALACCESSTOKEN>@github.com/<USERNAME>/<REPO>.git
+        3.git remote add origin https://gh-3jdj234rjfjdjjd2n2@github.com/saigowthamr/car-demo.git
